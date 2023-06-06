@@ -1,20 +1,20 @@
-import React from 'react';
+import React from "react";
 export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper' },
-  page: { className: 'home-page' },
+  wrapper: { className: "header0 home-page-wrapper" },
+  page: { className: "home-page" },
   logo: {
-    className: 'header0-logo',
+    className: "header0-logo",
     children:
-      'https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png',
+      "https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png",
   },
   Menu: {
-    className: 'header0-menu',
+    className: "header0-menu",
     children: [
       {
-        name: 'item0',
-        className: 'header0-item',
+        name: "item0",
+        className: "header0-item",
         children: {
-          href: '#',
+          href: "#",
           children: [
             {
               children: (
@@ -22,87 +22,36 @@ export const Nav00DataSource = {
                   <p>Home</p>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
       },
       {
-        name: 'item1',
-        className: 'header0-item',
+        name: "item1",
+        className: "header0-item",
         children: {
-          href: 'https://www.linespolice-cad.com/penal-code',
+          href: "https://www.linespolice-cad.com/penal-code",
           children: [
             {
               children: (
                 <span>
                   <p>
-                    Penal Codes<br />
+                    Penal Codes
+                    <br />
                   </p>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
       },
       {
-        name: 'item2',
-        className: 'header0-item',
+        name: "item2",
+        className: "header0-item",
         children: {
-          href: 'https://www.linespolice-cad.com/about',
+          href: "https://www.linespolice-cad.com/about",
           children: [
             {
               children: (
@@ -110,16 +59,16 @@ export const Nav00DataSource = {
                   <p>About</p>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
       },
       {
-        name: 'item3',
-        className: 'header0-item',
+        name: "item3",
+        className: "header0-item",
         children: {
-          href: 'https://www.linespolice-cad.com/map-interactive',
+          href: "https://www.linespolice-cad.com/map-interactive",
           children: [
             {
               children: (
@@ -127,76 +76,79 @@ export const Nav00DataSource = {
                   <p>Map</p>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
       },
       {
-        name: 'item~lig6g12fgs',
-        className: 'header0-item',
+        name: "item~lig6g12fgs",
+        className: "header0-item",
         children: {
-          href: 'https://www.linespolice-cad.com/discord-bot',
+          href: "https://www.linespolice-cad.com/discord-bot",
           children: [
             {
               children: (
                 <span>
                   <p>
-                    Discord Bot<br />
+                    Discord Bot
+                    <br />
                   </p>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
-          target: '_blank',
+          target: "_blank",
         },
       },
     ],
   },
-  mobileMenu: { className: 'header0-mobile-menu' },
+  mobileMenu: { className: "header0-mobile-menu" },
 };
 export const Banner01DataSource = {
-  wrapper: { className: 'banner0' },
-  textWrapper: { className: 'banner0-text-wrapper lig76kd43qs-editor_css' },
+  wrapper: { className: "banner0" },
+  textWrapper: { className: "banner0-text-wrapper lig76kd43qs-editor_css" },
   title: {
-    className: 'banner0-title lig76enk3kh-editor_css',
+    className: "banner0-title lig76enk3kh-editor_css",
     children:
-      'https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_main_transparentv2.png',
+      "https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_main_transparentv2.png",
   },
   content: {
-    className: 'banner0-content lig7ognf8u-editor_css',
+    className: "banner0-content lig7ognf8u-editor_css",
     children: (
       <span>
         <span>
           <p>
-            Leading <b>Free-to-use</b> service for Roleplay communities<br />
+            Leading <b>Free-to-use</b> service for Roleplay communities
+            <br />
           </p>
         </span>
       </span>
     ),
   },
   button: {
-    className: 'banner0-button',
+    className: "banner0-button",
     children: (
       <span>
         <p>
-          Get Started<br />
+          Get Started
+          <br />
         </p>
       </span>
     ),
-    href: 'https://www.linespolice-cad.com/login-civ',
+    href: "https://www.linespolice-cad.com/login-civ",
   },
 };
 export const Content00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0' },
-  OverPack: { playScale: 0.3, className: '' },
+  wrapper: { className: "home-page-wrapper content0-wrapper" },
+  page: { className: "home-page content0" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Dashboards</p>
@@ -206,25 +158,25 @@ export const Content00DataSource = {
     ],
   },
   childWrapper: {
-    className: 'content0-block-wrapper',
+    className: "content0-block-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'content0-block',
+        name: "block0",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+                "https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Civilian</p>
@@ -232,12 +184,13 @@ export const Content00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
                     Quickly and easily create and manage all your civilians,
-                    vehicles, firearms and more<br />
+                    vehicles, firearms and more
+                    <br />
                   </p>
                 </span>
               ),
@@ -246,22 +199,22 @@ export const Content00DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'content0-block',
+        name: "block1",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
+                "https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Police</p>
@@ -269,12 +222,13 @@ export const Content00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
                     Create citations, issue warrants, and mark yourself '10-8'
-                    with our snappy police controls<br />
+                    with our snappy police controls
+                    <br />
                   </p>
                 </span>
               ),
@@ -283,22 +237,22 @@ export const Content00DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'content0-block',
+        name: "block2",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+                "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Dispatch</p>
@@ -306,12 +260,13 @@ export const Content00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
                     Coordinate all the officers in your community. Set a status,
-                    assign officers to calls and much more.<br />
+                    assign officers to calls and much more.
+                    <br />
                   </p>
                 </span>
               ),
@@ -323,14 +278,14 @@ export const Content00DataSource = {
   },
 };
 export const Feature00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0' },
-  OverPack: { playScale: 0.3, className: '' },
+  wrapper: { className: "home-page-wrapper content0-wrapper" },
+  page: { className: "home-page content0" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <br />
@@ -340,40 +295,42 @@ export const Feature00DataSource = {
     ],
   },
   childWrapper: {
-    className: 'content0-block-wrapper',
+    className: "content0-block-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'content0-block',
+        name: "block0",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+                "https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>
-                    Fire &amp; EMS<br />
+                    Fire &amp; EMS
+                    <br />
                   </p>
                 </span>
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
                     Create a fire or EMS personnel to aid civilians. Access
-                    medical history and create medical reports<br />
+                    medical history and create medical reports
+                    <br />
                   </p>
                 </span>
               ),
@@ -382,22 +339,22 @@ export const Feature00DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'content0-block',
+        name: "block1",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
+                "https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Community</p>
@@ -405,13 +362,14 @@ export const Feature00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <span>
                     <p>
                       Create your own community exclusively for private use of
-                      all your own data, civilians and much more<br />
+                      all your own data, civilians and much more
+                      <br />
                     </p>
                   </span>
                 </span>
@@ -421,38 +379,40 @@ export const Feature00DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'content0-block',
+        name: "block2",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+                "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>
-                    Add your own<br />
+                    Add your own
+                    <br />
                   </p>
                 </span>
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <span>
                     <p>
                       <b>Coming soon</b> we will have the ability to create your
-                      own department, aside from the default we give you.<br />
+                      own department, aside from the default we give you.
+                      <br />
                     </p>
                   </span>
                 </span>
@@ -465,44 +425,45 @@ export const Feature00DataSource = {
   },
 };
 export const Feature60DataSource = {
-  wrapper: { className: 'home-page-wrapper feature6-wrapper' },
-  OverPack: { className: 'home-page feature6', playScale: 0.3 },
+  wrapper: { className: "home-page-wrapper feature6-wrapper" },
+  OverPack: { className: "home-page feature6", playScale: 0.3 },
   Carousel: {
-    className: 'feature6-content',
+    className: "feature6-content",
     dots: false,
-    wrapper: { className: 'feature6-content-wrapper' },
+    wrapper: { className: "feature6-content-wrapper" },
     titleWrapper: {
-      className: 'feature6-title-wrapper',
+      className: "feature6-title-wrapper",
       barWrapper: {
-        className: 'feature6-title-bar-wrapper',
-        children: { className: 'feature6-title-bar' },
+        className: "feature6-title-bar-wrapper",
+        children: { className: "feature6-title-bar" },
       },
-      title: { className: 'feature6-title' },
+      title: { className: "feature6-title" },
     },
     children: [
       {
         title: {
-          className: 'feature6-title-text',
+          className: "feature6-title-text",
           children: (
             <span>
               <p>
-                Site Metrics<br />
+                Site Metrics
+                <br />
               </p>
             </span>
           ),
         },
-        className: 'feature6-item',
-        name: 'block0',
+        className: "feature6-item",
+        name: "block0",
         children: [
           {
             md: 8,
             xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child0',
+            className: "feature6-number-wrapper",
+            name: "child0",
             number: {
-              className: 'feature6-number',
+              className: "feature6-number",
               unit: {
-                className: 'feature6-unit',
+                className: "feature6-unit",
                 children: (
                   <span>
                     <br />
@@ -510,14 +471,15 @@ export const Feature60DataSource = {
                 ),
               },
               toText: true,
-              children: '7500',
+              children: "7500",
             },
             children: {
-              className: 'feature6-text',
+              className: "feature6-text",
               children: (
                 <span>
                   <p>
-                    New Users per Week<br />
+                    New Users per Week
+                    <br />
                   </p>
                 </span>
               ),
@@ -526,12 +488,12 @@ export const Feature60DataSource = {
           {
             md: 8,
             xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child1',
+            className: "feature6-number-wrapper",
+            name: "child1",
             number: {
-              className: 'feature6-number',
+              className: "feature6-number",
               unit: {
-                className: 'feature6-unit',
+                className: "feature6-unit",
                 children: (
                   <span>
                     <br />
@@ -539,10 +501,10 @@ export const Feature60DataSource = {
                 ),
               },
               toText: true,
-              children: '47401426',
+              children: "47401426",
             },
             children: {
-              className: 'feature6-text',
+              className: "feature6-text",
               children: (
                 <span>
                   <p>Pageviews</p>
@@ -553,12 +515,12 @@ export const Feature60DataSource = {
           {
             md: 8,
             xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child2',
+            className: "feature6-number-wrapper",
+            name: "child2",
             number: {
-              className: 'feature6-number',
+              className: "feature6-number",
               unit: {
-                className: 'feature6-unit',
+                className: "feature6-unit",
                 children: (
                   <span>
                     <br />
@@ -566,14 +528,15 @@ export const Feature60DataSource = {
                 ),
               },
               toText: true,
-              children: '87',
+              children: "87",
             },
             children: {
-              className: 'feature6-text',
+              className: "feature6-text",
               children: (
                 <span>
                   <p>
-                    Different Countries<br />
+                    Different Countries
+                    <br />
                   </p>
                 </span>
               ),
@@ -585,32 +548,34 @@ export const Feature60DataSource = {
   },
 };
 export const Content30DataSource = {
-  wrapper: { className: 'home-page-wrapper content3-wrapper' },
-  page: { className: 'home-page content3' },
+  wrapper: { className: "home-page-wrapper content3-wrapper" },
+  page: { className: "home-page content3" },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>
-              Suggestions or Feedback<br />
+              Suggestions or Feedback
+              <br />
             </p>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
       {
-        name: 'content',
-        className: 'title-content',
+        name: "content",
+        className: "title-content",
         children: (
           <span>
             <span>
               <p>
                 We love feedback. Click on any of the buttons to get the
-                conversation started<br />
+                conversation started
+                <br />
               </p>
             </span>
           </span>
@@ -619,22 +584,22 @@ export const Content30DataSource = {
     ],
   },
   block: {
-    className: 'content3-block-wrapper',
+    className: "content3-block-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'content3-block',
+        name: "block0",
+        className: "content3-block",
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: "content3-icon",
             children:
-              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
+              "https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png",
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: "content3-text" },
           title: {
-            className: 'content3-title',
+            className: "content3-title",
             children: (
               <span>
                 <span>
@@ -648,7 +613,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: "content3-content",
             children: (
               <span>
                 <span>
@@ -660,19 +625,19 @@ export const Content30DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'content3-block',
+        name: "block1",
+        className: "content3-block",
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: "content3-icon",
             children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+              "https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png",
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: "content3-text" },
           title: {
-            className: 'content3-title',
+            className: "content3-title",
             children: (
               <span>
                 <span>
@@ -689,7 +654,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: "content3-content",
             children: (
               <span>
                 <br />
@@ -699,19 +664,19 @@ export const Content30DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'content3-block',
+        name: "block2",
+        className: "content3-block",
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: "content3-icon",
             children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+              "https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png",
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: "content3-text" },
           title: {
-            className: 'content3-title',
+            className: "content3-title",
             children: (
               <span>
                 <span>
@@ -729,7 +694,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: "content3-content",
             children: (
               <span>
                 <br />
@@ -739,19 +704,19 @@ export const Content30DataSource = {
         },
       },
       {
-        name: 'block3',
-        className: 'content3-block',
+        name: "block3",
+        className: "content3-block",
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: "content3-icon",
             children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+              "https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png",
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: "content3-text" },
           title: {
-            className: 'content3-title',
+            className: "content3-title",
             children: (
               <span>
                 <span>
@@ -769,7 +734,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: "content3-content",
             children: (
               <span>
                 <br />
@@ -779,19 +744,19 @@ export const Content30DataSource = {
         },
       },
       {
-        name: 'block4',
-        className: 'content3-block',
+        name: "block4",
+        className: "content3-block",
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: "content3-icon",
             children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+              "https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png",
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: "content3-text" },
           title: {
-            className: 'content3-title',
+            className: "content3-title",
             children: (
               <span>
                 <span>
@@ -808,7 +773,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: "content3-content",
             children: (
               <span>
                 <br />
@@ -818,19 +783,19 @@ export const Content30DataSource = {
         },
       },
       {
-        name: 'block5',
-        className: 'content3-block',
+        name: "block5",
+        className: "content3-block",
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: "content3-icon",
             children:
-              'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
+              "https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png",
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: "content3-text" },
           title: {
-            className: 'content3-title',
+            className: "content3-title",
             children: (
               <span>
                 <span>
@@ -847,7 +812,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: "content3-content",
             children: (
               <span>
                 <br />
@@ -860,33 +825,34 @@ export const Content30DataSource = {
   },
 };
 export const Footer10DataSource = {
-  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
-  OverPack: { className: 'footer1', playScale: 0.2 },
+  wrapper: { className: "home-page-wrapper footer1-wrapper" },
+  OverPack: { className: "footer1", playScale: 0.2 },
   block: {
-    className: 'home-page',
+    className: "home-page",
     gutter: 0,
     children: [
       {
-        name: 'block0',
+        name: "block0",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
-          className: 'logo',
+          className: "logo",
           children:
-            'https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png',
+            "https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png",
         },
         childWrapper: {
-          className: 'slogan',
+          className: "slogan",
           children: [
             {
-              name: 'content0',
+              name: "content0",
               children: (
                 <span>
                   <span>
                     <span>
                       <p>
-                        Worlds Leading Free-to-use role-play facilitator<br />
+                        Worlds Leading Free-to-use role-play facilitator
+                        <br />
                       </p>
                     </span>
                   </span>
@@ -897,10 +863,10 @@ export const Footer10DataSource = {
         },
       },
       {
-        name: 'block1',
+        name: "block1",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -911,20 +877,21 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: 'link0',
-              href: 'https://www.linespolice-cad.com/release-log',
+              name: "link0",
+              href: "https://www.linespolice-cad.com/release-log",
               children: (
                 <span>
                   <p>
-                    Release Log<br />
+                    Release Log
+                    <br />
                   </p>
                 </span>
               ),
-              target: '',
+              target: "",
             },
             {
-              name: 'link1',
-              href: 'https://linesmerrill.github.io/MerrillLines/',
+              name: "link1",
+              href: "https://linesmerrill.github.io/MerrillLines/",
               children: (
                 <span>
                   <p>Developers</p>
@@ -932,8 +899,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'link2',
-              href: 'https://www.linespolice-cad.com/rules',
+              name: "link2",
+              href: "https://www.linespolice-cad.com/rules",
               children: (
                 <span>
                   <p>Rules</p>
@@ -941,8 +908,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'link3',
-              href: '#',
+              name: "link3",
+              href: "#",
               children: (
                 <span>
                   <br />
@@ -953,10 +920,10 @@ export const Footer10DataSource = {
         },
       },
       {
-        name: 'block2',
+        name: "block2",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -966,14 +933,15 @@ export const Footer10DataSource = {
         },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
+            { href: "#", name: "link0", children: "FAQ" },
             {
-              href: 'https://www.linespolice-cad.com/about#contact-us',
-              name: 'link1',
+              href: "https://www.linespolice-cad.com/about#contact-us",
+              name: "link1",
               children: (
                 <span>
                   <p>
-                    Contact Us<br />
+                    Contact Us
+                    <br />
                   </p>
                 </span>
               ),
@@ -982,10 +950,10 @@ export const Footer10DataSource = {
         },
       },
       {
-        name: 'block3',
+        name: "block3",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -996,41 +964,41 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: 'https://www.patreon.com/linespolicecad',
-              name: 'link0',
+              href: "https://www.patreon.com/linespolicecad",
+              name: "link0",
               children: (
                 <span>
                   <p>Patreon</p>
                 </span>
               ),
-              target: '_blank',
+              target: "_blank",
             },
             {
-              href: 'https://github.com/linesmerrill/police-cad',
-              name: 'link1',
+              href: "https://github.com/linesmerrill/police-cad",
+              name: "link1",
               children: (
                 <span>
                   <p>GitHub</p>
                 </span>
               ),
-              target: '_blank',
+              target: "_blank",
             },
           ],
         },
       },
     ],
   },
-  copyrightWrapper: { className: 'copyright-wrapper' },
-  copyrightPage: { className: 'home-page' },
+  copyrightWrapper: { className: "copyright-wrapper" },
+  copyrightPage: { className: "home-page" },
   copyright: {
-    className: 'copyright',
+    className: "copyright",
     children: (
       <span>
         <span>
-          ©2023 by{' '}
+          ©2023 by{" "}
           <a href="https://sites.google.com/view/tlps-dev/home" target="_blank">
             TLPS
-          </a>{' '}
+          </a>{" "}
           All Rights Reserved
         </span>
       </span>
