@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { enquireScreen } from "enquire-js";
+import Header from "./Home/Nav0";
+import Footer from "./Home/Footer1";
+import Home from "./Home";
+import PenalCodes from "./PenalCodes";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Nav00DataSource, Footer10DataSource } from "./Common/data.source.js";
+
+let isMobile;
+enquireScreen((b) => {
+  isMobile = b;
+});
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile,
+    };
+  }
+  componentDidMount() {
+    // Support for mobile resolutions
+    enquireScreen((b) => {
+      this.setState({ isMobile: !!b });
+    });
+  }
+  render() {
+    return (
+      <Router>
+        <div>
+          <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/penal-codes" element={<PenalCodes />} />
+          </Routes>
+          <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
