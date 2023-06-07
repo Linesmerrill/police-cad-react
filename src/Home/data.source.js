@@ -26,58 +26,6 @@ export const Nav00DataSource = {
             },
           ],
         },
-        subItem: [
-          {
-            name: "sub0",
-            className: "item-sub",
-            children: {
-              className: "item-sub-item",
-              children: [
-                {
-                  name: "image0",
-                  className: "item-image",
-                  children:
-                    "https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg",
-                },
-                {
-                  name: "title",
-                  className: "item-title",
-                  children: "Ant Design",
-                },
-                {
-                  name: "content",
-                  className: "item-content",
-                  children: "企业级 UI 设计体系",
-                },
-              ],
-            },
-          },
-          {
-            name: "sub1",
-            className: "item-sub",
-            children: {
-              className: "item-sub-item",
-              children: [
-                {
-                  name: "image0",
-                  className: "item-image",
-                  children:
-                    "https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg",
-                },
-                {
-                  name: "title",
-                  className: "item-title",
-                  children: "Ant Design",
-                },
-                {
-                  name: "content",
-                  className: "item-content",
-                  children: "企业级 UI 设计体系",
-                },
-              ],
-            },
-          },
-        ],
       },
       {
         name: "item1",
