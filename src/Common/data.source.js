@@ -109,24 +109,7 @@ export const Banner01DataSource = {
     className: "banner0-button ligdeo3ow6-editor_css",
     children: (
       <span>
-        <span>
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <p>
-                        Get Started
-                        <br />
-                      </p>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
+        <p>Get Started</p>
       </span>
     ),
     href: "https://www.linespolice-cad.com/login-civ",
