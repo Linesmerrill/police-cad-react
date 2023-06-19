@@ -6,6 +6,9 @@ import Footer from "./Home/Footer1";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
+import TermsAndConditions from "./TermsAndConditions";
+import PrivacyPolicy from "./PrivacyPolicy";
+import Faq from "./Faq";
 
 import { Nav00DataSource, Footer10DataSource } from "./Common/data.source.js";
 
@@ -36,6 +39,13 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about-us" element={<AboutUs />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
+            <Route
+              exact
+              path="/terms-and-conditions"
+              element={<TermsAndConditions />}
+            />
+            <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route exact path="/faq" element={<Faq />} />
           </Routes>
           <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
         </div>

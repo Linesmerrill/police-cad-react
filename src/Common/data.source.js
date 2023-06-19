@@ -146,7 +146,7 @@ export const Footer10DataSource = {
           children: [
             {
               name: "link0",
-              href: "https://www.linespolice-cad.com/release-log",
+              href: "https://github.com/Linesmerrill/police-cad/releases",
               children: (
                 <span>
                   <p>
@@ -167,22 +167,24 @@ export const Footer10DataSource = {
               ),
             },
             {
+              href: "https://www.patreon.com/linespolicecad",
               name: "link2",
-              href: "https://www.linespolice-cad.com/rules",
               children: (
                 <span>
-                  <p>Rules</p>
+                  <p>Patreon</p>
                 </span>
               ),
+              target: "_blank",
             },
             {
+              href: "https://github.com/linesmerrill/police-cad",
               name: "link3",
-              href: "#",
               children: (
                 <span>
-                  <br />
+                  <p>GitHub</p>
                 </span>
               ),
+              target: "_blank",
             },
           ],
         },
@@ -201,9 +203,9 @@ export const Footer10DataSource = {
         },
         childWrapper: {
           children: [
-            { href: "#", name: "link0", children: "FAQ" },
+            { href: "/faq", name: "link0", children: "FAQ" },
             {
-              href: "https://www.linespolice-cad.com/about#contact-us",
+              href: "/contact-us",
               name: "link1",
               children: (
                 <span>
@@ -211,6 +213,24 @@ export const Footer10DataSource = {
                     Contact Us
                     <br />
                   </p>
+                </span>
+              ),
+            },
+            {
+              name: "link2",
+              href: "/terms-and-conditions",
+              children: (
+                <span>
+                  <p>Terms and Conditions</p>
+                </span>
+              ),
+            },
+            {
+              name: "link3",
+              href: "/privacy-policy",
+              children: (
+                <span>
+                  <p>Privacy Policy</p>
                 </span>
               ),
             },
@@ -225,28 +245,38 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>Contribute</p>
+              <p>Follow</p>
             </span>
           ),
         },
         childWrapper: {
           children: [
             {
-              href: "https://www.patreon.com/linespolicecad",
+              href: "https://discord.gg/3ECFhqe",
               name: "link0",
               children: (
                 <span>
-                  <p>Patreon</p>
+                  <p>Discord</p>
                 </span>
               ),
               target: "_blank",
             },
             {
-              href: "https://github.com/linesmerrill/police-cad",
+              href: "https://twitter.com/LinesPoliceCAD",
               name: "link1",
               children: (
                 <span>
-                  <p>GitHub</p>
+                  <p>Twitter</p>
+                </span>
+              ),
+              target: "_blank",
+            },
+            {
+              href: "https://www.facebook.com/linespoliceserver/",
+              name: "link2",
+              children: (
+                <span>
+                  <p>Facebook</p>
                 </span>
               ),
               target: "_blank",
