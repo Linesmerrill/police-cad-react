@@ -4,7 +4,8 @@ import { enquireScreen } from "enquire-js";
 import Header from "./Home/Nav0";
 import Footer from "./Home/Footer1";
 import Home from "./Home";
-import PenalCodes from "./PenalCodes";
+import AboutUs from "./AboutUs";
+import ContactUs from "./ContactUs";
 
 import { Nav00DataSource, Footer10DataSource } from "./Common/data.source.js";
 
@@ -33,7 +34,8 @@ class App extends Component {
           <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/penal-codes" element={<PenalCodes />} />
+            <Route exact path="/about-us" element={<AboutUs />} />
+            <Route exact path="/contact-us" element={<ContactUs />} />
           </Routes>
           <Footer dataSource={Footer10DataSource} isMobile={this.isMobile} />
         </div>

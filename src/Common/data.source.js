@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         name: "item0",
         className: "header0-item",
         children: {
-          href: "#",
+          href: "/",
           children: [
             {
               children: (
@@ -32,7 +32,7 @@ export const Nav00DataSource = {
         name: "item2",
         className: "header0-item",
         children: {
-          href: "https://www.linespolice-cad.com/about",
+          href: "/about-us",
           children: [
             {
               children: (
@@ -49,7 +49,7 @@ export const Nav00DataSource = {
         name: "item~lig6g12fgs",
         className: "header0-item",
         children: {
-          href: "https://www.linespolice-cad.com/discord-bot",
+          href: "/contact-us",
           children: [
             {
               children: (
