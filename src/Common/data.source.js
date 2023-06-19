@@ -3,8 +3,7 @@ export const Nav00DataSource = {
   wrapper: { className: "header0 home-page-wrapper" },
   page: { className: "home-page" },
   logo: {
-    className: "header0-logo",
-    href: "https://www.linespolice-cad.com/login-civ",
+    className: "header0-logo lj33lqeb18b-editor_css",
     children:
       "https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png",
   },
@@ -64,7 +63,7 @@ export const Nav00DataSource = {
               name: "text",
             },
           ],
-          target: "_blank",
+          target: "",
         },
       },
       {
@@ -86,6 +85,24 @@ export const Nav00DataSource = {
             },
           ],
           target: "_blank",
+        },
+      },
+      {
+        name: "item~lj3c2crocd",
+        className: "header0-item",
+        children: {
+          href: "/login",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Login</p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+          target: "",
         },
       },
     ],
