@@ -4,6 +4,7 @@ export const Nav00DataSource = {
   page: { className: "home-page" },
   logo: {
     className: "header0-logo",
+    href: "https://www.linespolice-cad.com/login-civ",
     children:
       "https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png",
   },
@@ -553,8 +554,11 @@ export const Content30DataSource = {
               <span>
                 <span>
                   <p>
-                    <a href="https://discord.gg/3ECFhqe" target="_blank">
-                      Discord
+                    <a
+                      href="mailto:support@linespolice-cad.com"
+                      target="_blank"
+                    >
+                      Email
                     </a>
                   </p>
                 </span>
@@ -592,11 +596,12 @@ export const Content30DataSource = {
                 <span>
                   <p>
                     <a
-                      href="mailto:support@linespolice-cad.com"
+                      href="https://github.com/Linesmerrill/police-cad/issues/new?assignees=&amp;amp;labels=&amp;amp;template=bug_report.md&amp;amp;title="
                       target="_blank"
                     >
-                      Email
+                      Report a Bug
                     </a>
+                    <br />
                   </p>
                 </span>
               </span>
@@ -634,7 +639,7 @@ export const Content30DataSource = {
                       href="https://github.com/Linesmerrill/police-cad/issues/new?assignees=&amp;labels=&amp;template=feature_request.md&amp;title="
                       target="_blank"
                     >
-                      Request a New Feature
+                      Request a Feature
                     </a>
                     <br />
                   </p>
@@ -670,13 +675,9 @@ export const Content30DataSource = {
               <span>
                 <span>
                   <p>
-                    <a
-                      href="https://github.com/Linesmerrill/police-cad/issues/new?assignees=&amp;labels=&amp;template=bug_report.md&amp;title="
-                      target="_blank"
-                    >
-                      Report a Bug
+                    <a href="https://discord.gg/3ECFhqe" target="_blank">
+                      Discord
                     </a>
-                    <br />
                   </p>
                 </span>
               </span>
