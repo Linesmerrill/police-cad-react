@@ -56,7 +56,6 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      
       <Banner0
         id="Banner0_1"
         key="Banner0_1"
@@ -81,7 +80,6 @@ export default class Home extends React.Component {
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
-      
     ];
     return (
       <div

@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         name: "item0",
         className: "header0-item",
         children: {
-          href: "/",
+          href: "#",
           children: [
             {
               children: (
@@ -26,26 +26,7 @@ export const Nav00DataSource = {
             },
           ],
         },
-      },
-      {
-        name: "item1",
-        className: "header0-item",
-        children: {
-          href: "/penal-codes",
-          children: [
-            {
-              children: (
-                <span>
-                  <p>
-                    Penal Codes
-                    <br />
-                  </p>
-                </span>
-              ),
-              name: "text",
-            },
-          ],
-        },
+        subItem: null,
       },
       {
         name: "item2",
@@ -65,24 +46,28 @@ export const Nav00DataSource = {
         },
       },
       {
-        name: "item3",
+        name: "item~lig6g12fgs",
         className: "header0-item",
         children: {
-          href: "https://www.linespolice-cad.com/map-interactive",
+          href: "https://www.linespolice-cad.com/discord-bot",
           children: [
             {
               children: (
                 <span>
-                  <p>Map</p>
+                  <p>
+                    Contact Us
+                    <br />
+                  </p>
                 </span>
               ),
               name: "text",
             },
           ],
+          target: "_blank",
         },
       },
       {
-        name: "item~lig6g12fgs",
+        name: "item~lj2yllcqn7",
         className: "header0-item",
         children: {
           href: "https://www.linespolice-cad.com/discord-bot",
