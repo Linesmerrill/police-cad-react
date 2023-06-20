@@ -1,4 +1,114 @@
 import React from "react";
+export const Nav00DataSource = {
+  wrapper: { className: "header0 home-page-wrapper" },
+  page: { className: "home-page" },
+  logo: {
+    className: "header0-logo lj33lqeb18b-editor_css",
+    children:
+      "https://www.linespolice-cad.com/static/images/lpc_logo_new_2023_landscape_transparent.png",
+  },
+  Menu: {
+    className: "header0-menu",
+    children: [
+      {
+        name: "item0",
+        className: "header0-item",
+        children: {
+          href: "/",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Home</p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+        },
+        subItem: null,
+      },
+      {
+        name: "item2",
+        className: "header0-item",
+        children: {
+          href: "/about-us",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>About</p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+        },
+      },
+      {
+        name: "item~lig6g12fgs",
+        className: "header0-item",
+        children: {
+          href: "/contact-us",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>
+                    Contact Us
+                    <br />
+                  </p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+          target: "",
+        },
+      },
+      {
+        name: "item~lj2yllcqn7",
+        className: "header0-item",
+        children: {
+          href: "https://www.linespolice-cad.com/discord-bot",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>
+                    Discord Bot
+                    <br />
+                  </p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+          target: "_blank",
+        },
+      },
+      {
+        name: "item~lj3c2crocd",
+        className: "header0-item",
+        children: {
+          href: "/login",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Login</p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+          target: "",
+        },
+      },
+    ],
+  },
+  mobileMenu: { className: "header0-mobile-menu" },
+};
 export const Banner01DataSource = {
   wrapper: { className: "banner0 likygdl71t-editor_css" },
   textWrapper: { className: "banner0-text-wrapper lig76kd43qs-editor_css" },
