@@ -3,9 +3,11 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
+import Nav0 from './Nav0';
 import Content13 from './Content13';
 
-import { Content131DataSource } from './data.source';
+
+import { Nav00DataSource,Content131DataSource } from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
@@ -44,6 +46,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
+      <Nav0
+        id="Nav0_0"
+        key="Nav0_0"
+        dataSource={Nav00DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Content13
         id="Content13_1"
         key="Content13_1"

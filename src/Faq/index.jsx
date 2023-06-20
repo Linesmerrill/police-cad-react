@@ -3,9 +3,10 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
+import Nav0 from './Nav0';
 import Content9 from './Content9';
 
-import { Content90DataSource } from './data.source';
+import { Nav00DataSource,Content90DataSource } from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
@@ -44,6 +45,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
+      <Nav0
+        id="Nav0_0"
+        key="Nav0_0"
+        dataSource={Nav00DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Content9
         id="Content9_0"
         key="Content9_0"

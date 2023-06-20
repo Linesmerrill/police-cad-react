@@ -3,11 +3,13 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
+import Nav0 from './Nav0';
 import Feature4 from './Feature4';
 import Content13 from './Content13';
 import Content11 from './Content11';
 
 import {
+  Nav00DataSource,
   Feature40DataSource,
   Content130DataSource,
   Content131DataSource,
@@ -52,6 +54,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
+      <Nav0
+        id="Nav0_0"
+        key="Nav0_0"
+        dataSource={Nav00DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Feature4
         id="Feature4_0"
         key="Feature4_0"

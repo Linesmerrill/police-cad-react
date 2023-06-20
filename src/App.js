@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { enquireScreen } from "enquire-js";
-import Header from "./Common/Nav0";
 import Footer from "./Common/Footer1";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
@@ -9,7 +8,7 @@ import ContactUs from "./ContactUs";
 import TermsAndConditions from "./TermsAndConditions";
 import PrivacyPolicy from "./PrivacyPolicy";
 import Faq from "./Faq";
-import { Nav00DataSource, Footer10DataSource } from "./Common/data.source.js";
+import { Footer10DataSource } from "./Common/data.source.js";
 
 let isMobile;
 enquireScreen((b) => {
@@ -33,7 +32,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          {/* <Header dataSource={Nav00DataSource} isMobile={this.isMobile} /> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about-us" element={<AboutUs />} />
