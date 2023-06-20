@@ -1,59 +1,60 @@
-import React from 'react';
+import React from "react";
 export const Content130DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content13-wrapper lj33686irk-editor_css',
+    className: "home-page-wrapper content13-wrapper lj33686irk-editor_css",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image",
       },
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
               <p>
-                Terms and Conditions<br />
+                Terms and Conditions
+                <br />
               </p>
             </span>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
     ],
   },
 };
 export const Content132DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content13-wrapper lj39jud6ngt-editor_css',
+    className: "home-page-wrapper content13-wrapper lj39jud6ngt-editor_css",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image",
       },
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Important Notice</p>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
       {
-        name: 'content',
+        name: "content",
         children: (
           <span>
             <p>
@@ -85,37 +86,42 @@ export const Content132DataSource = {
             </p>
           </span>
         ),
-        className: 'title-content lj39j5xv1or-editor_css',
+        className: "title-content lj39j5xv1or-editor_css",
       },
       {
-        name: 'content2',
+        name: "content2",
         children: (
           <span>
-            <p>From all of us at Lines Police CAD, Thank you! ❤️</p>
+            <p>
+              From all of us at Lines Police CAD, Thank you!{" "}
+              <span role="img" aria-label="heart emoji">
+                ❤️
+              </span>
+            </p>
           </span>
         ),
-        className: 'title-content',
+        className: "title-content",
       },
     ],
   },
 };
 export const Content133DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content13-wrapper lj39mclik0g-editor_css',
+    className: "home-page-wrapper content13-wrapper lj39mclik0g-editor_css",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image",
       },
       {
-        name: 'title~lj3a2xsv8im',
-        className: '',
+        name: "title~lj3a2xsv8im",
+        className: "",
         children: (
           <span>
             <p>Welcome to Lines Police CAD!</p>
@@ -123,7 +129,7 @@ export const Content133DataSource = {
         ),
       },
       {
-        name: 'content2',
+        name: "content2",
         children: (
           <span>
             <b>
@@ -137,10 +143,10 @@ export const Content133DataSource = {
             </b>
           </span>
         ),
-        className: 'title-content lj3a3dnbrpn-editor_css',
+        className: "title-content lj3a3dnbrpn-editor_css",
       },
       {
-        name: 'content',
+        name: "content",
         children: (
           <span>
             <p>
@@ -214,24 +220,24 @@ export const Content133DataSource = {
             </p>
             <p>You warrant and represent that:</p>
             <p>
-              {' '}
+              {" "}
               You are entitled to post the Comments on our website and have all
               necessary licenses and consents to do so;
             </p>
             <p>
-              {' '}
+              {" "}
               The Comments do not invade any intellectual property right,
               including without limitation copyright, patent or trademark of any
               third party;
             </p>
             <p>
-              {' '}
+              {" "}
               The Comments do not contain any defamatory, libelous, offensive,
               indecent or otherwise unlawful material which is an invasion of
               privacy
             </p>
             <p>
-              {' '}
+              {" "}
               The Comments will not be used to solicit or promote business or
               custom or present commercial activities or unlawful activity.
             </p>
@@ -249,13 +255,13 @@ export const Content133DataSource = {
             <p> Search engines;</p>
             <p> News organizations;</p>
             <p>
-              {' '}
+              {" "}
               Online directory distributors may link to our Website in the same
               manner as they hyperlink to the Websites of other listed
               businesses; and
             </p>
             <p>
-              {' '}
+              {" "}
               System wide Accredited Businesses except soliciting non-profit
               organizations, charity shopping malls, and charity fundraising
               groups which may not hyperlink to our Web site.
@@ -310,7 +316,7 @@ export const Content133DataSource = {
             <p> By use of our corporate name; or</p>
             <p> By use of the uniform resource locator being linked to; or</p>
             <p>
-              {' '}
+              {" "}
               By use of any other description of our Website being linked to
               that makes sense within the context and format of content on the
               linking party’s site.
@@ -365,22 +371,22 @@ export const Content133DataSource = {
               and the use of this website. Nothing in this disclaimer will:
             </p>
             <p>
-              {' '}
+              {" "}
               limit or exclude our or your liability for death or personal
               injury;
             </p>
             <p>
-              {' '}
+              {" "}
               limit or exclude our or your liability for fraud or fraudulent
               misrepresentation;
             </p>
             <p>
-              {' '}
+              {" "}
               limit any of our or your liabilities in any way that is not
               permitted under applicable law; or
             </p>
             <p>
-              {' '}
+              {" "}
               exclude any of our or your liabilities that may not be excluded
               under applicable law.
             </p>
@@ -398,7 +404,7 @@ export const Content133DataSource = {
             </p>
           </span>
         ),
-        className: 'title-content lj39nmh2z7j-editor_css',
+        className: "title-content lj39nmh2z7j-editor_css",
       },
     ],
   },

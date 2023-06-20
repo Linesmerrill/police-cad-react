@@ -85,6 +85,7 @@ export const Nav00DataSource = {
             },
           ],
           target: "_blank",
+          rel: "noopener noreferrer",
         },
       },
       {
@@ -311,7 +312,11 @@ export const Footer10DataSource = {
       <span>
         <span>
           ©2023 by{" "}
-          <a href="https://sites.google.com/view/tlps-dev/home" target="_blank">
+          <a
+            href="https://sites.google.com/view/tlps-dev/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             TLPS
           </a>{" "}
           All Rights Reserved

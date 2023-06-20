@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { enquireScreen } from "enquire-js";
-import Header from "./Home/Nav0";
-import Footer from "./Home/Footer1";
+import Header from "./Common/Nav0";
+import Footer from "./Common/Footer1";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import TermsAndConditions from "./TermsAndConditions";
 import PrivacyPolicy from "./PrivacyPolicy";
 import Faq from "./Faq";
-
 import { Nav00DataSource, Footer10DataSource } from "./Common/data.source.js";
 
 let isMobile;
@@ -27,7 +26,7 @@ class App extends Component {
   componentDidMount() {
     // Support for mobile resolutions
     enquireScreen((b) => {
-      this.setState({ isMobile: !!b });
+      this.setState({ isMobile: b });
     });
   }
   render() {

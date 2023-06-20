@@ -186,6 +186,7 @@ export const Content130DataSource = {
                 <a
                   href="https://github.com/linesmerrill/police-cad"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>{" "}
@@ -198,6 +199,7 @@ export const Content130DataSource = {
                 <a
                   href="https://www.patreon.com/linespolicecad"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Lines Police CAD Patreon
                 </a>

@@ -2,7 +2,6 @@ import React from 'react';
 import TweenOne from 'rc-tween-one';
 import { Menu } from 'antd';
 import { getChildrenToRender } from './utils';
-import { Link } from "react-router-dom";
 
 const { Item, SubMenu } = Menu;
 
